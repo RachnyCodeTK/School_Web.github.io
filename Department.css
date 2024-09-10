@@ -1,0 +1,225 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #120101;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header and Navigation */
+.header {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.logo img {
+    height: 50px;
+    border-radius: 50px;
+}
+
+.text{
+    font-style:inherit;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 60px;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar li {
+    margin-left: 30px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #a6a5a5;
+    border-radius: 4px;
+    border: #f2a1a1 2px solid;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('Image/department.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #161111;
+    text-align: center;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: rgb(255, 128, 0);
+}
+
+/* .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+   
+}
+
+.btn:hover {
+    background-color: #00ff0d;
+    color: rgb(36, 27, 27);
+    border: red 2px solid;
+} */
+
+/* Main Content */
+.main-content {
+    padding: 40px 0;
+}
+
+.content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Box Lectures */
+.all_part{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+
+/*Hornor Bachelor Programs*/
+.Hornoor{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 560px;
+    height: 450px;
+    background-color: #efeded;
+    margin: 20px 20px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    overflow: hidden;
+}
+
+.box h5{
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.list{
+    margin-top: -5px;
+}
+
+.list-item {
+    text-align: start;
+    font-size: larger;
+    
+}
+
+.box img{
+    width: 560px;
+    height: 250px;
+}
+
+.box img:hover{
+    transition: transform 0.50s ease;
+    transform: scale(1.1);
+}
+
+h2{
+    text-decoration: underline;
+    margin: 0 10px;
+}
+
+.box h4{
+    position: absolute;
+    text-decoration: underline;
+    margin: 10px 15px;
+    float: inline-end;
+    font-size: larger;
+    color: #ff0000;
+}
+.box h4:hover {
+    color: #d0ff00; 
+    transform: 1s;
+    transition: 1s;
+}
+
+
+
+
+
+
+/* Footer Section */
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social-links {
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}

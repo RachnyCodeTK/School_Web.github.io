@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="fe logo.jpg" type="img/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Of Engineering</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Preconnect to Google Fonts for performance optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header section -->
+    <section class="header">
+        <nav>
+            <div>
+                <label>
+                    
+                        <img src="Image/img_stem_building.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                             Natus nesciunt saepe minus in earum, porro, quaerat ratione
+                              placeat ex, recusandae unde alias reprehenderit ullam.
+                               Fugit quae eaque qui quod tempore.</p>
+                
+                </label>
+            </div>
+            <!-- Logo -->
+            
+            <!-- Navigation links -->
+            <div class="nav-link" id="navLink">
+                <!-- Close menu icon -->
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="indext.html">HOME</a></li>
+                    <li><a href="program_school.html">PROGRAM</a></li>
+                    
+                    <li><a href="departments.html">DEPARTMENT</a></li>
+                    <li><a href="about.html">ABOUT US</a>
+                    <li><a href="">RESEARCH</a></li>
+                    <li><a href="">CONTANCE</a></li>
+                  
+                    </li>
+                </ul>
+            </div>
+            <!-- Open menu icon -->
+            <i class="fa-solid fa-list" onclick="showMenu()"></i>
+        </nav>
+        <!-- Main welcome text -->
+    </section>
+
+    <!-- Courses section -->
+    
+
+    <!-- JavaScript for menu functionality -->
+    <script>
+        var navLink = document.getElementById("navLink");
+
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+    </script>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company information -->
+                <div class="footer-col">
+                    <h4>STEM OFFICE </h4>
+                   
+                        <P>Faculty of Engineering
+                            Room 103, STEM Building,
+                            Royal University of Phnom Penh (Campus 1), Russian Federation Blvd (110), Phnom Penh</P>
+                    
+                </div>
+                <!-- Contact information -->
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="#">Email: example@gmail.com</a></li>
+                        <li><a href="#">Address: Street138, PhnomPenh</a></li>
+                        <li><a href="#">Tele Phone: +855 077809297</a></li>
+                    </ul>
+                </div>
+                <!-- Social media links -->
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100072914820035" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/srengsukhraaj/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <!-- Copyright information -->
+            <div class="bottom-bar">
+                <p> Copyright&copy;2024byteam03</p>
+            </div>
+        </footer>
+</body>
+</html>
